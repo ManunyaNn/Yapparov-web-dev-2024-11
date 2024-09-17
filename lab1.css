@@ -1,0 +1,145 @@
+/* Применение box-sizing для всех элементов */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Шрифты */
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+}
+.container {
+    width: 50%; /* Устанавливает ширину контейнера в 50% от ширины экрана */
+    max-width: 1200px; /* Устанавливает максимальную ширину для больших экранов */
+    margin: 0 auto; /* Центрирует контейнер по горизонтали */
+    padding: 20px; /* Добавляет отступы внутри контейнера */
+}
+header {
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+}
+
+h1 {
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    margin-right: 20px; /* Задаём отступ справа от каждой ссылки */
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+.main-image img {
+    padding-left: 20px;
+    width: 100%;
+    height: auto;
+}
+
+/* О нас */
+#about {
+    padding-left: 20px;
+    text-align: left;
+}
+
+#about h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#about p {
+    font-size: 18px;
+    color: black;
+}
+
+/* Преимущества компании */
+#benefits {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#benefits ul {
+    margin-top: 20px;
+    list-style: disc; /* Добавляет точки перед элементами списка */
+    text-align: left;
+}
+
+#benefits ul li {
+    font-size: 18px;
+    
+}
+
+/* Таблица с популярными блюдами */
+#popular-dishes {
+    padding: 20px;
+    text-align: left;
+}
+
+#popular-dishes h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    max-width: 500px;
+    margin: 0;
+    border-collapse: collapse;
+    
+}
+
+table th, table td {
+    padding: 5px;
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+table th {
+    background-color: #f4f4f4;
+    font-weight: 700;
+}
+
+table td {
+    font-size: 18px;
+}
+
+/* Футер */
+footer {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+.main-image img {
+    width: 600px; /* Ширина изображения в пикселях */
+    height: auto; /* Автоматически подстраивает высоту для сохранения пропорций */
+}
+
